@@ -42,4 +42,4 @@ jobs:
 
       # 4. Upload both tags to Docker Hub
       - name: Push the image
-        run: docker push --all-tags "$IMAGE"
+        run: docker push --all-tags "$IMAGE" 
